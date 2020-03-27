@@ -1,17 +1,8 @@
 [
   {
     "repository" : "crdroidandroid/android_device_xiaomi_sdm710-common",
-    "target_path": "device/xiaomi/sdm710-common"
-    "branch"     : "lineage-17.1"
-  },
-  {
-    "repository" : "solidv/kernel_xiaomi_sdm710",
-    "target_path": "kernel/xiaomi/sdm710",
-    "branch"     : "ten"
-  },
-  {
-    "repository" : "DevelopedInside/proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
-    "branch"     : "lineage-17.1"
+    "target_path": "device/xiaomi/sdm710-common",
+    "branch"     : "lineage-17.1",
+    "remote"     : "github"
   }
 ]
