@@ -25,8 +25,6 @@ vendor/etc/tas2557_aac.ftcfg|a3e21bb8e933aabf8a1d9990298dc57a8229d412
 vendor/etc/tas2557_goer.ftcfg|a3e21bb8e933aabf8a1d9990298dc57a8229d412
 
 # Bluetooth
-system/lib/libbtconfigstore.so
-system/lib64/libbtconfigstore.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|74b5d2e7867e34c0e358cf8d82f3bfea58e97c28
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|943a18d91664ab54095c8ada7a9b9b73bcca1f99
@@ -47,7 +45,7 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|9425f3b3d1b27cf1342499dd80
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|e14abd3a8413ccfac55339ad03b592bfe642b833
 
 # Camera
-vendor/bin/remosaic_daemon|dad62f231e45763115d0ffbc3e66d83396cf39a0	
+vendor/bin/remosaic_daemon|dad62f231e45763115d0ffbc3e66d83396cf39a0
 vendor/etc/camera/age_gender_bg|c730a4d5cb8976c5d944e0815cdcbef8ca7f2045
 vendor/etc/camera/camxoverridesettings.txt|cddc8077b38859d09d30b92910c6e14bdbf78b8e
 vendor/etc/camera/crown_156_128.bin|0e0a5e6ace7340ae5bfd3742db2d812d0bc0098c
@@ -323,6 +321,3 @@ vendor/etc/thermal-engine-sdm710-nolimits.conf|3980d553da65d0be53f16ae459aae5479
 vendor/etc/thermal-engine-sdm710-phone.conf|7ec388883807d81ba379c1950d0870e429e88647
 vendor/etc/thermal-engine-sdm710-pubgmhd.conf|fa0ca46fcb0029f143461f8f483e8f3b53210cda
 vendor/etc/thermal-engine-sdm710-sgame.conf|89f127476d00e9a12dc5021ab28e2c05dc7c8b2d
-
-# WiFi
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so|1a6789c96cb68106631512114d974cc3f23741d0
